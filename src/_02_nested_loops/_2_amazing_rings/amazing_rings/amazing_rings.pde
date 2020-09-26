@@ -1,10 +1,43 @@
-
+int x = 1;
+int xx = 1;
 void setup() {
+  size(1000,500);
+  background(255,255,255);
   
 }
 
 void draw() {
+  background(255);
+
   
+ 
+  
+  for (int i = 300; i >= 0; i-=15) {
+     if (i % 2 == 0) {
+       noFill();
+     }
+     else {
+       noFill();
+     }
+     ellipse(x,250,i,i);
+  
+  }
+ 
+  for (int i = 300; i >= 0; i-=15) {
+     if (i % 2 == 0) {
+       noFill();
+     }
+     else {
+       noFill();
+     }
+     ellipse(1000 + xx,250,i,i);
+     
+  }   
+  
+  x+= 1;
+  xx-=1;
+
+
   // Go to the recipe to run the demonstration before starting this program
   
   /*
